@@ -41,7 +41,7 @@ if selected=='About':
       st_lottie(lottie_coder)
   st.write("---")
   with st.container():
-    col3,col4=st.column(2)
+    col3,col4=st.columns(2)
     with col3:
       st.subheader("""
       Education
