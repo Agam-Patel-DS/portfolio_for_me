@@ -86,7 +86,7 @@ if selected=="Projects":
       options=["Machine Learning","Object Detection","NLP", "Gen AI"],
       orientation='horizontal'
     )
-    if selected=="Gen AI":
+    if selected1=="Gen AI":
       with st.container():
         col5,col6=st.columns((1,2))
         with col5:
@@ -131,7 +131,7 @@ if selected=="Projects":
         with col14:
           st_lottie(lottie_coder,height=300)
         
-    if selected=="Object Detection":  
+    if selected1=="Object Detection":  
       with st.container():
         col7,col8=st.columns((1,2))
         with col7:
@@ -165,7 +165,7 @@ if selected=="Projects":
         with col18:
           st_lottie(lottie_coder,height=300)
 
-    if selected=="NLP":
+    if selected1=="NLP":
       with st.container():
         col19,col20=st.columns((1,2))
         with col19:
@@ -199,7 +199,7 @@ if selected=="Projects":
           with col24:
             st_lottie(lottie_coder,height=300)
           
-    if selected=="Machine Learning":
+    if selected1=="Machine Learning":
       with st.container():
         col25,col26=st.columns((1,2))
         with col25:
