@@ -11,9 +11,10 @@ def load_lottieurl(url):
   return r.json()
 
 lottie_coder=load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_UBiAADPga8.json")
-# project1=
-# project2=
-# project3=
+lottie_contact=load_lottieurl("")
+# project1=load_lottieurl("")
+# project2=load_lottieurl("")
+# project3=load_lottieurl("")
 
 st.write("##")
 st.subheader("Welcome!")
@@ -80,14 +81,36 @@ if selected=="Projects":
       st.write("##")
       st.subheader("Youtube and Web URL Summarizer")
       st.write("Using Langchain and LLM")
+      st.write("[Github Link]()")
     with col6:
-      st_lottie(lottie_coder)
+      st_lottie(lottie_coder,height=300)
       
   with st.container():
     col7,col8=st.columns((1,2))
-    with col8:
+    with col7:
       st.write("##")
       st.subheader("Finger Detection")
       st.write("Using CNN Oject Detection")
-    with col7:
-      st_lottie(lottie_coder)
+      st.write("[Github Link]()")
+    with col8:
+      st_lottie(lottie_coder,height=300)
+if selected="Contact":
+st.header("Get in touch!")
+st.write("##")
+st.write("##")
+
+contact_form="""
+<form action="https://formsubmit.co/agampatel75@email.com" method="POST">
+     <input type>="hidden" name="_captcha" value="false">
+     <input type="text" name="name" placeholder="Your Name" required>
+     <input type="email" name="email" placeholder="Your Email" required>
+     <textarea name= "message" placeholder = "Your Message" required></textarea>
+     <button type="submit">Send</button>
+</form>
+"""
+
+left_col, right_col=st.columns(2)
+with left_col:
+  st.markdown(contact_form, unsafe_allow_html=True)
+with right_col:
+  st_lottie(lottie_coder, height=300)
