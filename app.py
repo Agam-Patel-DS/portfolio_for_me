@@ -28,8 +28,8 @@ st.write("---")
 with st.container():
   selected=option_menu(
     menu_title=None,
-    options=["About","Projects","Contact"],
-    icons=['person','code-slash','chat-left-text-fill'],
+    options=["About","Projects"],
+    icons=['person','code-slash'],
     orientation='horizontal'
   )
 
@@ -94,23 +94,7 @@ if selected=="Projects":
       st.write("[Github Link]()")
     with col8:
       st_lottie(lottie_coder,height=300)
-if selected="Contact":
-st.header("Get in touch!")
-st.write("##")
-st.write("##")
 
-contact_form="""
-<form action="https://formsubmit.co/agampatel75@email.com" method="POST">
-     <input type>="hidden" name="_captcha" value="false">
-     <input type="text" name="name" placeholder="Your Name" required>
-     <input type="email" name="email" placeholder="Your Email" required>
-     <textarea name= "message" placeholder = "Your Message" required></textarea>
-     <button type="submit">Send</button>
-</form>
-"""
-
-left_col, right_col=st.columns(2)
-with left_col:
-  st.markdown(contact_form, unsafe_allow_html=True)
-with right_col:
-  st_lottie(lottie_coder, height=300)
+st.container():
+  st.subheader("Contact")
+  st.write("[Email](agampatel75@gmail.com)")
