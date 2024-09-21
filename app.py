@@ -15,7 +15,7 @@ st.write("---")
 with st.container():
   selected=option_menu(
     menu_title=None,
-    option=["About","Projects","Contact"],
+    options=["About","Projects","Contact"],
     icons=['person','code-slash','chat-left-text-fill'],
     orientation='horizontal'
   )
