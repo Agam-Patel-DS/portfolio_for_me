@@ -83,7 +83,7 @@ if selected=="Projects":
     with st.container():
       selected1=option_menu(
       menu_title=None,
-      options=["Machine Learning","Object Detection","NLP", "Gen AI"],
+      options=["Python", "Machine Learning","Object Detection","NLP", "Gen AI"],
       orientation='horizontal'
     )
     if selected1=="Gen AI":
@@ -228,6 +228,27 @@ if selected=="Projects":
           st.write("This model leverages historical weather data, including temperature, humidity, wind speed, and precipitation, to generate an accurate fire weather index. By using machine learning algorithms like regression analysis and time series forecasting, it predicts fire risk levels, helping authorities and land managers make informed decisions regarding fire prevention and resource allocation. This tool is vital for enhancing community safety and protecting natural resources by providing timely insights into potential fire hazards.")
           st.write("[Github Link](https://github.com/AgamPatel108/FWI-predictor)")
         with col26:
+          st_lottie(lottie_coder,height=300)
+          
+    if selected1=="Python":
+      with st.container():
+        col27,col28=st.columns((1,2))
+        with col27:
+          st.write("##")
+          st.subheader("Web Scrapper")
+          st.write("This scraper utilizes libraries like BeautifulSoup and Scrapy to navigate web pages, retrieve content, and structure the data into a usable format. Whether it's collecting product information, reviews, or articles, this tool automates the data extraction process, saving time and effort while ensuring accuracy. Ideal for data scientists, marketers, and researchers, the Web Scraper enables users to gather valuable insights from the vast resources available online.")
+          st.write("[Github Link](https://github.com/AgamPatel108/web-revie-scapper)")
+        with col28:
+          st_lottie(lottie_coder,height=300)
+          
+      with st.container():
+        col29,col30=st.columns((1,2))
+        with col29:
+          st.write("##")
+          st.subheader("Image Scrapper")
+          st.write(" This scraper uses libraries like Requests and BeautifulSoup to navigate web pages, identify image URLs, and download them to your local storage. Whether you’re collecting images for machine learning projects, personal collections, or content creation, this tool automates the image retrieval process, allowing you to gather large datasets quickly and easily. Designed for developers, designers, and researchers, the Image Scraper provides a streamlined solution for harnessing visual content from the web.")
+          st.write("[Github Link](https://github.com/AgamPatel108/Image-Scrapper)")
+        with col30:
           st_lottie(lottie_coder,height=300)
 
 st.write("---")
