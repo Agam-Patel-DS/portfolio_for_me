@@ -224,7 +224,7 @@ if selected=="Projects":
         col25,col26=st.columns((1,2))
         with col25:
           st.write("##")
-          st.subheader(Fire Weather Index Prediction")
+          st.subheader("Fire Weather Index Prediction")
           st.write("This model leverages historical weather data, including temperature, humidity, wind speed, and precipitation, to generate an accurate fire weather index. By using machine learning algorithms like regression analysis and time series forecasting, it predicts fire risk levels, helping authorities and land managers make informed decisions regarding fire prevention and resource allocation. This tool is vital for enhancing community safety and protecting natural resources by providing timely insights into potential fire hazards.")
           st.write("[Github Link](https://github.com/AgamPatel108/FWI-predictor)")
         with col26:
