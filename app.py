@@ -90,13 +90,13 @@ if selected=="Projects":
       with st.container():
         col5,col6=st.columns((1,2))
         with col5:
-        st.write("##")
-        st.subheader("RAG QnA Chatbot with history")
-        st.write("Using Langchain and LLM")
-        st.write("This chatbot integrates the Groq API for session creation and allows users to upload a PDF document. Powered by the Google Gemma 2b LLM model, it enables users to ask questions based on the document content and keeps track of the chat history for a seamless experience.")
-        st.write("[Github Link](https://github.com/Agam-Patel-DS/RAG-Document-Q-A-Chatbot-with-Chat-History)")
+          st.write("##")
+          st.subheader("RAG QnA Chatbot with history")
+          st.write("Using Langchain and LLM")
+          st.write("This chatbot integrates the Groq API for session creation and allows users to upload a PDF document. Powered by the Google Gemma 2b LLM model, it enables users to ask questions based on the document content and keeps track of the chat history for a seamless experience.")
+          st.write("[Github Link](https://github.com/Agam-Patel-DS/RAG-Document-Q-A-Chatbot-with-Chat-History)")
         with col6:
-        st_lottie(lottie_coder,height=300)
+          st_lottie(lottie_coder,height=300)
 
       with st.container():
         col9,col10=st.columns((1,2))
