@@ -11,9 +11,9 @@ def load_lottieurl(url):
   return r.json()
 
 lottie_coder=load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_UBiAADPga8.json")
-project1=
-project2=
-project3=
+# project1=
+# project2=
+# project3=
 
 st.write("##")
 st.subheader("Welcome!")
