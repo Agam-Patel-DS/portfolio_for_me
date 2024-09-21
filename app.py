@@ -67,4 +67,4 @@ if selected=='About':
           - Langchain Framework, RAG
           - Still Learning More
       - Data Structures and Algorithms in Python
-    
+    """)
