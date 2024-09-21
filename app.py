@@ -40,3 +40,31 @@ if selected=='About':
     with col2:
       st_lottie(lottie_coder)
   st.write("---")
+  with st.container():
+    col3,col4=st.column(2)
+    with col3:
+      st.subheader("""
+      Education
+      - SRIT
+          - Bachelor of Engineering - Computer Science
+          - 7.5 CGPA (Current)
+      - Nachiketa Higher Secondary School
+          - PCM
+          - 83 Percentage
+      - Nachiketa Higher Secondary School
+          - Xth
+          - 92 Percentage
+      """)
+    with col4:
+      st.subheader("""
+      Skills
+      - Data Science
+          - Python & Statistics
+          - Machine Learning, Neural Netwroks & Natural Language Processing
+          - BI Tools & Big Data
+      - Gen AI with Langchain
+          - LSTM, Transformers & LLMs
+          - Langchain Framework, RAG
+          - Still Learning More
+      - Data Structures and Algorithms in Python
+    
