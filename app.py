@@ -11,7 +11,9 @@ def load_lottieurl(url):
   return r.json()
 
 lottie_coder=load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_UBiAADPga8.json")
-
+project1=
+project2=
+project3=
 
 st.write("##")
 st.subheader("Welcome!")
@@ -68,3 +70,26 @@ if selected=='About':
           - Still Learning More
       - Data Structures and Algorithms in Python
     """)
+
+if selected=="Projects":
+  with st.container():
+    st.header("My Projects")
+    st.write("##")
+    col5,col6=st.columns((1,2))
+    with col5:
+      st.write("##")
+      st.subheader("Youtube and Web URL Summarizer")
+      st.write("Using Langchain and LLM")
+    with col6:
+      st_lottie(lottie_coder)
+      
+  with st.container():
+    st.header("My Projects")
+    st.write("##")
+    col7,col8=st.columns((1,2))
+    with col7:
+      st.write("##")
+      st.subheader("Finger Detection")
+      st.write("Using CNN Oject Detection")
+    with col8:
+      st_lottie(lottie_coder)
