@@ -18,7 +18,7 @@ lottie_coder=load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_UBiAA
 
 st.write("##")
 st.subheader("Welcome!")
-st.title("AGAM PATEL")
+st.title("This is Agam's portfolio!")
 st.write("""
 
 """)
@@ -38,7 +38,7 @@ if selected=='About':
     col1,col2=st.columns(2)
     with col1:
       st.write("##")
-      st.title("I'm Agam Patel")
+      st.title("AGAM PATEL")
       st.subheader("Undergrad at Sri Ram Institute of Technology")
       st.write("""
       Agam Patel is a dedicated Data Scientist and AI Engineer currently pursuing his Bachelor of Technology in Computer Science. He has a deep passion for developing AI-powered solutions to address complex real-world challenges. With expertise in Large Language Models (LLMs), LangChain, and advanced machine learning techniques, Agam's work spans a variety of domains, including NLP, predictive modeling, and deep learning.
@@ -53,7 +53,7 @@ if selected=='About':
       st.subheader("""
       Education
       - SRIT
-          - Bachelor of Engineering - Computer Science
+          - Bachelor of Technology - Computer Science
           - 7.5 CGPA (Current)
       - Nachiketa Higher Secondary School
           - PCM
@@ -83,8 +83,7 @@ if selected=="Projects":
     with st.container():
       selected1=option_menu(
       menu_title=None,
-      options=["Python", "Machine Learning","Object Detection","NLP", "Gen AI"],
-      orientation='horizontal'
+      options=["Python", "Machine Learning","Object Detection","NLP", "Gen AI"]
     )
     if selected1=="Gen AI":
       with st.container():
