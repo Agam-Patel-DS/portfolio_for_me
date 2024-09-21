@@ -84,12 +84,10 @@ if selected=="Projects":
       st_lottie(lottie_coder)
       
   with st.container():
-    st.header("My Projects")
-    st.write("##")
     col7,col8=st.columns((1,2))
-    with col7:
+    with col8:
       st.write("##")
       st.subheader("Finger Detection")
       st.write("Using CNN Oject Detection")
-    with col8:
+    with col7:
       st_lottie(lottie_coder)
