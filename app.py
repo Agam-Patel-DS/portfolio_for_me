@@ -88,18 +88,18 @@ if selected=="Projects":
     )
     if selected=="Gen AI":
       with st.container():
-      col5,col6=st.columns((1,2))
-      with col5:
+        col5,col6=st.columns((1,2))
+        with col5:
         st.write("##")
         st.subheader("RAG QnA Chatbot with history")
         st.write("Using Langchain and LLM")
         st.write("This chatbot integrates the Groq API for session creation and allows users to upload a PDF document. Powered by the Google Gemma 2b LLM model, it enables users to ask questions based on the document content and keeps track of the chat history for a seamless experience.")
         st.write("[Github Link](https://github.com/Agam-Patel-DS/RAG-Document-Q-A-Chatbot-with-Chat-History)")
-      with col6:
+        with col6:
         st_lottie(lottie_coder,height=300)
 
       with st.container():
-      col9,col10=st.columns((1,2))
+        col9,col10=st.columns((1,2))
       with col9:
         st.write("##")
         st.subheader("Youtube and Website URL Summarizer")
@@ -110,26 +110,26 @@ if selected=="Projects":
         st_lottie(lottie_coder,height=300)
 
       with st.container():
-      col11,col12=st.columns((1,2))
-      with col11:
-        st.write("##")
-        st.subheader("Chatbot with SQL Database")
-        st.write("Using Langchain")
-        st.write("Powered by open-source LLM models, this chatbot can write, run, and explain SQL queries effortlessly. Whether you're fetching data, updating tables, or analyzing databases, the chatbot understands your commands and translates them into accurate SQL code, making it perfect for developers, data analysts, and anyone looking to streamline their database operations. This project leverages the latest advancements in AI to make working with SQL easier, faster, and more intuitive!")
-        st.write("[Github Link](https://github.com/Agam-Patel-DS/Chatbot-with-SQL-Database-using-Langchain)")
-      with col12:
-        st_lottie(lottie_coder,height=300)
+        col11,col12=st.columns((1,2))
+        with col11:
+          st.write("##")
+          st.subheader("Chatbot with SQL Database")
+          st.write("Using Langchain")
+          st.write("Powered by open-source LLM models, this chatbot can write, run, and explain SQL queries effortlessly. Whether you're fetching data, updating tables, or analyzing databases, the chatbot understands your commands and translates them into accurate SQL code, making it perfect for developers, data analysts, and anyone looking to streamline their database operations. This project leverages the latest advancements in AI to make working with SQL easier, faster, and more intuitive!")
+          st.write("[Github Link](https://github.com/Agam-Patel-DS/Chatbot-with-SQL-Database-using-Langchain)")
+        with col12:
+          st_lottie(lottie_coder,height=300)
 
       with st.container():
-      col13,col14=st.columns((1,2))
-      with col13:
-        st.write("##")
-        st.subheader("Mathbot using Langchain")
-        st.write("Using Langchain LLMMathChain")
-        st.write("Powered by LLM Chain and LLMMathChain via LangChain, this bot can understand mathematical queries, break them down, and provide accurate solutions in real time. Whether it's algebra, calculus, or complex equations, Mathbot simplifies the process by converting text-based problems into structured solutions, making it an ideal tool for students, teachers, and math enthusiasts looking for quick and reliable answers. Built to enhance productivity, it brings the power of AI to mathematical problem-solving!")
-        st.write("[Github Link](https://github.com/Agam-Patel-DS/MathBot-using-LLMMathChain---Langchain)")
-      with col14:
-        st_lottie(lottie_coder,height=300)
+        col13,col14=st.columns((1,2))
+        with col13:
+          st.write("##")
+          st.subheader("Mathbot using Langchain")
+          st.write("Using Langchain LLMMathChain")
+          st.write("Powered by LLM Chain and LLMMathChain via LangChain, this bot can understand mathematical queries, break them down, and provide accurate solutions in real time. Whether it's algebra, calculus, or complex equations, Mathbot simplifies the process by converting text-based problems into structured solutions, making it an ideal tool for students, teachers, and math enthusiasts looking for quick and reliable answers. Built to enhance productivity, it brings the power of AI to mathematical problem-solving!")
+          st.write("[Github Link](https://github.com/Agam-Patel-DS/MathBot-using-LLMMathChain---Langchain)")
+        with col14:
+          st_lottie(lottie_coder,height=300)
         
     if selected=="Object Detection":  
       with st.container():
@@ -189,15 +189,15 @@ if selected=="Projects":
           st_lottie(lottie_coder,height=300)
 
         with st.container():
-        col23,col24=st.columns((1,2))
-        with col23:
-          st.write("##")
-          st.subheader("Text Summarizer")
-          st.write("Using Transformers")
-          st.write("Text Summarizer, powered by Transformers, designed to generate concise and coherent summaries from long-form text. This model utilizes the powerful attention mechanism in transformer architectures, such as BERT or GPT, to capture the most important information and provide an accurate summary while preserving the meaning of the original text. Whether summarizing articles, research papers, or reports, this tool delivers high-quality results quickly and efficiently. Ideal for anyone looking to distill large amounts of information into digestible summaries, this project showcases the cutting-edge capabilities of transformer-based models for text summarization tasks.")
-          st.write("[Github Link](https://github.com/AgamPatel108/Text-Summarizer-Project-using-NLP)")
-        with col24:
-          st_lottie(lottie_coder,height=300)
+          col23,col24=st.columns((1,2))
+          with col23:
+            st.write("##")
+            st.subheader("Text Summarizer")
+            st.write("Using Transformers")
+            st.write("Text Summarizer, powered by Transformers, designed to generate concise and coherent summaries from long-form text. This model utilizes the powerful attention mechanism in transformer architectures, such as BERT or GPT, to capture the most important information and provide an accurate summary while preserving the meaning of the original text. Whether summarizing articles, research papers, or reports, this tool delivers high-quality results quickly and efficiently. Ideal for anyone looking to distill large amounts of information into digestible summaries, this project showcases the cutting-edge capabilities of transformer-based models for text summarization tasks.")
+            st.write("[Github Link](https://github.com/AgamPatel108/Text-Summarizer-Project-using-NLP)")
+          with col24:
+            st_lottie(lottie_coder,height=300)
           
     if selected=="Machine Learning":
       with st.container():
