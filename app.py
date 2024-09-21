@@ -22,7 +22,7 @@ st.title("AGAM PATEL")
 st.write("""
 
 """)
-st.write("[Github](https://github.com/Agam-Patel-DS/)")
+st.write("[Github](https://github.com/Agam-Patel-DS/) | [Linked In](https://in.linkedin.com/in/iagampatel)")
 st.write("---")
 
 with st.container():
@@ -40,6 +40,10 @@ if selected=='About':
       st.write("##")
       st.title("I'm Agam Patel")
       st.subheader("Undergrad at Sri Ram Institute of Technology")
+      st.write("""
+      Agam Patel is a dedicated Data Scientist and AI Engineer currently pursuing his Bachelor of Technology in Computer Science. He has a deep passion for developing AI-powered solutions to address complex real-world challenges. With expertise in Large Language Models (LLMs), LangChain, and advanced machine learning techniques, Agam's work spans a variety of domains, including NLP, predictive modeling, and deep learning.
+      He has built projects like crop disease prediction, speech-to-text conversion, and intelligent chatbots, demonstrating his ability to combine AI and data science to create impactful, innovative solutions. Agam is continuously pushing the boundaries of what’s possible, with a focus on machine learning, NLP, and generative AI to stay ahead in this rapidly evolving field.
+      """)
     with col2:
       st_lottie(lottie_coder)
   st.write("---")
@@ -79,8 +83,9 @@ if selected=="Projects":
     col5,col6=st.columns((1,2))
     with col5:
       st.write("##")
-      st.subheader("Youtube and Web URL Summarizer")
+      st.subheader("RAG QnA Chatbot")
       st.write("Using Langchain and LLM")
+      st.write("This chatbot integrates the Groq API for session creation and allows users to upload a PDF document. Powered by the Google Gemma 2b LLM model, it enables users to ask questions based on the document content and keeps track of the chat history for a seamless experience.")
       st.write("[Github Link]()")
     with col6:
       st_lottie(lottie_coder,height=300)
@@ -91,10 +96,12 @@ if selected=="Projects":
       st.write("##")
       st.subheader("Finger Detection")
       st.write("Using CNN Oject Detection")
+      st.write("The Number of Finger Detection project aims to develop a system that can accurately detect and recognize the number of fingers shown in an image using TensorFlow. The system uses Convolutional Neural Networks (CNN) to process images and classify the number of fingers displayed. This project is useful for applications in gesture recognition and human-computer interaction.")
       st.write("[Github Link]()")
     with col8:
       st_lottie(lottie_coder,height=300)
 
+st.write("---")
 with st.container():
   st.subheader("Contact")
   st.write("[Email](agampatel75@gmail.com)")
