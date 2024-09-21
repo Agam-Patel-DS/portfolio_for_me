@@ -95,6 +95,6 @@ if selected=="Projects":
     with col8:
       st_lottie(lottie_coder,height=300)
 
-st.container():
+with st.container():
   st.subheader("Contact")
   st.write("[Email](agampatel75@gmail.com)")
